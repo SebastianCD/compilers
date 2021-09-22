@@ -1,0 +1,23 @@
+digraph AFN{
+rankdir = LR;
+node [shape = doublecircle]; 11;
+node [shape = point ]; qi
+node [shape = circle];
+qi -> 0
+0 -> 1 [label ="&#949;"];
+0 -> 6 [label ="&#949;"];
+1 -> 2 [label ="&#949;"];
+1 -> 4 [label ="&#949;"];
+2 -> 3 [label ="a"];
+3 -> 4 [label ="&#949;"];
+3 -> 2 [label ="&#949;"];
+4 -> 5 [label ="b"];
+5 -> 11 [label ="&#949;"];
+6 -> 7 [label ="a"];
+7 -> 8 [label ="&#949;"];
+7 -> 10 [label ="&#949;"];
+8 -> 9 [label ="c"];
+9 -> 10 [label ="&#949;"];
+9 -> 8 [label ="&#949;"];
+10 -> 11 [label ="&#949;"];
+}
